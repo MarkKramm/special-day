@@ -507,7 +507,7 @@ button { font: inherit; }
 
 .cake-icing {
   position: absolute;
-  z-index: 2;
+  z-index: 10;
   right: 12px;
   bottom: 65px;
   left: 12px;
@@ -540,8 +540,8 @@ button { font: inherit; }
 
 .candle {
   position: absolute;
-  z-index: 3;
-  bottom: 73px;
+  z-index: 20;
+  bottom: 74px;
   left: 50%;
   width: 12px;
   height: 46px;
@@ -1380,6 +1380,7 @@ button { font: inherit; }
 
 .note-kicker {
   margin: 0 0 18px;
+  padding-left: 40px;
   color: #a37c7d;
   font-size: 0.65rem;
   font-weight: 700;

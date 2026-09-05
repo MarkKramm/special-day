@@ -143,15 +143,6 @@ function Cake({ lit, progress, out }: { lit: boolean; progress: number; out: boo
           </span>
         )}
       </div>
-      <div className="cake-icing">
-        <i /><i /><i />
-        <svg className="frosting-detail" viewBox="0 0 126 28" fill="none">
-          <path d="M14 12c17-9 80-10 97 0M24 15c20-6 57-7 77-1" stroke="#e8ccba" strokeWidth="1.3" strokeLinecap="round" />
-          <path d="m29 8 3 2m16-4 1 3m30-2 3-1m13 8 3 1" stroke="#d9a3a0" strokeWidth="2" strokeLinecap="round" />
-          <circle cx="39" cy="16" r="1.5" fill="#dfb568" />
-          <circle cx="87" cy="10" r="1.5" fill="#dfb568" />
-        </svg>
-      </div>
       <div className="cake-body">
         <span className="cake-speck cake-speck-one" />
         <span className="cake-speck cake-speck-two" />
@@ -164,6 +155,15 @@ function Cake({ lit, progress, out }: { lit: boolean; progress: number; out: boo
             <circle cx="43" cy="12" r="2.3" /><circle cx="64" cy="12" r="2.3" />
             <circle cx="79" cy="11" r="2.3" /><circle cx="98" cy="10" r="2.3" />
           </g>
+        </svg>
+      </div>
+      <div className="cake-icing">
+        <i /><i /><i />
+        <svg className="frosting-detail" viewBox="0 0 126 28" fill="none">
+          <path d="M14 12c17-9 80-10 97 0M24 15c20-6 57-7 77-1" stroke="#e8ccba" strokeWidth="1.3" strokeLinecap="round" />
+          <path d="m29 8 3 2m16-4 1 3m30-2 3-1m13 8 3 1" stroke="#d9a3a0" strokeWidth="2" strokeLinecap="round" />
+          <circle cx="39" cy="16" r="1.5" fill="#dfb568" />
+          <circle cx="87" cy="10" r="1.5" fill="#dfb568" />
         </svg>
       </div>
       <div className="cake-plate" />
