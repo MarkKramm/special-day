@@ -12,7 +12,7 @@ import {
 const RECIPIENT_NAME = "Bouchra";
 const BIRTHDAY_LINE = "Happy 20th birthday";
 const NOTE =
-  "Hope you have a really sweet day today. Wishing you a calm, happy year ahead and the best of luck with everything you're working on.";
+  "Hope you have a really sweet day todayyyy!. Wishing you a calm, happy year ahead and the best of luck with everythinggg you're working on.";
 const SIGNATURE = "Mark";
 const CLOSING_LINE = "the world's a little better with people like you in it.";
 
@@ -430,6 +430,7 @@ function MessageCard({ onClose, closing }: { onClose: () => void; closing: boole
         <p className="note-signature">- {SIGNATURE}</p>
         <div className="note-moon" aria-hidden="true" />
       </article>
+      <p className="note-dismiss-hint">tap ✕ or anywhere to look up</p>
     </div>
   );
 }
@@ -740,7 +741,7 @@ export default function App() {
             ))}
           </div>
           <p className="sr-only" role="status">{tapCount} of {REVEAL_TAPS} little lights gathered.</p>
-          {revealComplete && <div className="found-message" role="status"><span>*</span> aweee, you found it! <span>*</span></div>}
+          {revealComplete && <div className="found-message" role="status"><span>*</span> 20 lights gathered!!!... and you found it ✨ <span>*</span></div>}
         </section>
       )}
 
@@ -760,10 +761,10 @@ export default function App() {
           onKeyDown={handleHoldKeyDown} onKeyUp={cancelHold} onContextMenu={(event) => event.preventDefault()}
         >
           <div className={`gesture-hint hold-hint ${holding || candleOut ? "is-hidden" : ""}`}>
-            <span className="hold-icon"><i /></span>hold to make a wish<small>5 seconds</small>
+            <span className="hold-icon"><i /></span>hold to make a wish<small>take a breath...</small>
           </div>
           {(holding || candleOut) && <HoldRing point={holdPoint} progress={holdProgress} complete={candleOut} />}
-          {candleOut && <p className="wish-made" role="status">wish made</p>}
+          {candleOut && <p className="wish-made" role="status">sent to the stars ✨</p>}
         </section>
       )}
 
