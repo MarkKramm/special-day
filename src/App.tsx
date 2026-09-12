@@ -14,7 +14,7 @@ const BIRTHDAY_LINE = "Happy 20th birthday";
 const NOTE =
   "Hope you have a really sweet day todayyyy!. Wishing you a calm, happy year ahead and the best of luck with everythinggg you're working on.";
 const SIGNATURE = "Mark";
-const CLOSING_LINE = "the world's a little better with people like you in it.";
+const CLOSING_LINE = "the world's a little kinder with people like you in it.";
 
 const REVEAL_TAPS = 20;
 const HOLD_DURATION = 5_000;
